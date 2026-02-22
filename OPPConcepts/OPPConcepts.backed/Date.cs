@@ -1,7 +1,4 @@
-﻿using System.Data;
-using System.Reflection.Metadata.Ecma335;
-
-namespace OPPConcepts.backed;
+﻿namespace OPPConcepts.backed;
 
 public class Date : Object
 {
