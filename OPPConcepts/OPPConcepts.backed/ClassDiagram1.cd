@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.backed.Employee">
-    <Position X="1.25" Y="0.5" Width="1.5" />
+    <Position X="5.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ABACAEAAAAAAAAAEEAAAAAAAACAAAAAIAAAAAAAAAAg=</HashCode>
       <FileName>Employee.cs</FileName>
@@ -19,10 +19,17 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="OPPConcepts.backed.SalaryEmployee">
-    <Position X="5.5" Y="2" Width="1.5" />
+    <Position X="8.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
       <FileName>SalaryEmployee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OPPConcepts.backed.HourlyEmployee">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAAAAAAAAAAEAAgAAAAAAABEAAAIAAAAAAAAAAE=</HashCode>
+      <FileName>HourlyEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
