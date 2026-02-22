@@ -7,5 +7,16 @@
       <FileName>Date.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPPConcepts.backed.Employee">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAEAAAAAAAAAEEAAAAAAAACAAAAAIAAAAAAAAAAg=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="BornDate" />
+      <Property Name="HireDate" />
+    </ShowAsAssociation>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
