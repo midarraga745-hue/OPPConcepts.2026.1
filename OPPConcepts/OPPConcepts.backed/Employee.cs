@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace OPPConcepts.backed;
 
-namespace OPPConcepts.backed;
-
-public abstract class Employee
+public abstract class Employee :IPay
 {
     //Constructors
     protected Employee(int id, string firstName, string lastName, bool isActive, Date bornDate, Date hireDate)

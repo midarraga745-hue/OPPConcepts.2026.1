@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="OPPConcepts.backed.Date">
-    <Position X="6.75" Y="3.5" Width="1.5" />
+    <Position X="7.25" Y="5.25" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAJAAAAAAEAAEAAAMAAAAAAACEMAAAAAAAAAA=</HashCode>
       <FileName>Date.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.backed.Employee">
-    <Position X="6.75" Y="0.5" Width="1.5" />
+    <Position X="7.25" Y="1.25" Width="1.25" />
     <TypeIdentifier>
       <HashCode>ABACAEAAAAAAAAAEEAAAAAAAACAAAAAIAAAAAAAAAAg=</HashCode>
       <FileName>Employee.cs</FileName>
@@ -17,23 +17,24 @@
       <Property Name="BornDate" />
       <Property Name="HireDate" />
     </ShowAsAssociation>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="OPPConcepts.backed.SalaryEmployee">
-    <Position X="10" Y="0.5" Width="1.5" />
+    <Position X="10.5" Y="1" Width="1.25" />
     <TypeIdentifier>
       <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
       <FileName>SalaryEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.backed.HourlyEmployee">
-    <Position X="9.75" Y="4" Width="1.5" />
+    <Position X="10.5" Y="4.5" Width="1.25" />
     <InheritanceLine Type="OPPConcepts.backed.Employee" FixedFromPoint="true">
       <Path>
-        <Point X="8.25" Y="2.125" />
-        <Point X="8.625" Y="2.125" />
-        <Point X="8.625" Y="3.625" />
-        <Point X="10.5" Y="3.625" />
-        <Point X="10.5" Y="4" />
+        <Point X="8.5" Y="2.875" />
+        <Point X="8.875" Y="2.875" />
+        <Point X="8.875" Y="4.125" />
+        <Point X="11.125" Y="4.125" />
+        <Point X="11.125" Y="4.5" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
@@ -42,18 +43,46 @@
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.backed.CommisionEmployee">
-    <Position X="3.5" Y="0.5" Width="1.5" />
+    <Position X="4" Y="1.25" Width="1.25" />
     <TypeIdentifier>
       <HashCode>AAIAAACAAAAAAACEAAAABAAAAAAAEAAIAAgAAAAAAAA=</HashCode>
       <FileName>CommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OPPConcepts.backed.BaseCommisionEmployee">
-    <Position X="3" Y="4.5" Width="1.5" />
+    <Position X="4.25" Y="5.75" Width="1.25" />
     <TypeIdentifier>
-      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIABAAAAQAAAA=</HashCode>
+      <HashCode>ACAAACAAAAAAAAAEAAAAAAAAAAAAAAAIAAAAAAQAAAA=</HashCode>
       <FileName>BaseCommisionEmployee.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OPPConcepts.backed.Invoice">
+    <Position X="13.5" Y="5" Width="1.25" />
+    <AssociationLine Name="Date" Type="OPPConcepts.backed.Date" ManuallyRouted="true">
+      <Path>
+        <Point X="13.5" Y="5.094" />
+        <Point X="12.646" Y="5.094" />
+        <Point X="12.646" Y="9.34" />
+        <Point X="8.798" Y="9.34" />
+        <Point X="8.798" Y="5.594" />
+        <Point X="8.5" Y="5.594" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ABACAAAAAAAgAAAFAAAAAAAAAAAAAAAJAAIggAAAgAA=</HashCode>
+      <FileName>Invoice.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Date" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="OPPConcepts.backed.IPay">
+    <Position X="13.5" Y="1.75" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>IPay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
